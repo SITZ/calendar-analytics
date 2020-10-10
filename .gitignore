@@ -1,3 +1,6 @@
+# Don't add actual calendar export files to repo
+*.ics
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
