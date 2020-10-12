@@ -1,6 +1,22 @@
 # Calendar Analytics
 Extract insights from calendar meetings ics export
 
+---
+
+### Insights
+
+- Most frequent Meeting topics keywords
+- Most frequent Meeting details keywords
+- Meeting participants vs Number & Time spent in meetings
+- Meeting duration vs Number & Time spent in meetings
+- Number & Time spent in meetings over time
+- Overall meeting place location
+- Meeting place location over time
+- Most common organizers for meetings attended
+- Most common participants in meetings attended
+
+---
+
 ### Steps
 
 1. Setup virtual environment
@@ -10,7 +26,11 @@ Extract insights from calendar meetings ics export
     pip install -r requirements.txt
     ```
 
-2. Download calendar archive and update variable file name at top of notebook
+2. Download calendar archive and in the directory
+
+    Export from Google calendar here: [https://calendar.google.com/calendar/u/0/r/settings/export](https://calendar.google.com/calendar/u/0/r/settings/export)
+
+3. Update variable file name at top of notebook
 
     `CALENDAR_EXPLORT_FIlE_NAME = <insert_your_file_name.ics>`
 
@@ -21,15 +41,8 @@ Extract insights from calendar meetings ics export
 
 4. Run all cells
 
-### Insights
+---
 
-- Generate word cloud of meeting titles
-- Generate word cloud of meeting details
-- Plot number of meetings over number of participants
-- Plot time spent in meetings over number of participants
-- Plot number of online : offline meetings
-- Plot time spent in online : offline meetings
-- Plot top 10 meeting organizers by count
-- Plot top 10 meeting participants by count
+> Which other insights will you find useful? 🤔
 
-[WIP] More coming up..
+Create [request](https://github.com/SITZ/calendar-analytics/issues/new) or [pull request](https://github.com/SITZ/calendar-analytics/compare). 
