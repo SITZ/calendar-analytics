@@ -1,9 +1,9 @@
-# Calendar Analytics
+# 📅 Calendar Analytics
 Extract insights from calendar meetings ics export
 
 ---
 
-### Insights
+### 📊 Insights
 
 - Most frequent Meeting topics keywords
 - Most frequent Meeting details keywords
@@ -17,7 +17,7 @@ Extract insights from calendar meetings ics export
 
 ---
 
-### Steps
+### 💻 Steps
 
 1. Setup virtual environment
     ```shell script
@@ -43,6 +43,6 @@ Extract insights from calendar meetings ics export
 
 ---
 
-> Which other insights will you find useful? 🤔
+### 🤔 Which other insights will you find useful?
 
-Create [request](https://github.com/SITZ/calendar-analytics/issues/new) or [pull request](https://github.com/SITZ/calendar-analytics/compare). 
+Send an [issue](https://github.com/SITZ/calendar-analytics/issues/new) or [pull request](https://github.com/SITZ/calendar-analytics/compare). 
